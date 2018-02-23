@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NotepadDemo</name>
+    </assembly>
+    <members>
+        <member name="T:NotepadDemo.Controllers.NotepadsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.#ctor(NotepadDemo.Data.ApplicationDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Details(System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Create">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Create(NotepadDemo.Models.NotepadModels.Notepad)">
+            <summary>
+            
+            </summary>
+            <param name="notepad"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Edit(System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Edit(System.Int64,NotepadDemo.Models.NotepadModels.Notepad)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="notepad"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.Delete(System.Nullable{System.Int64})">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NotepadDemo.Controllers.NotepadsController.DeleteConfirmed(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NotepadDemo.Data.ApplicationDbContext.Notepad">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:NotepadDemo.Helper.AddAuthTokenHeaderParameter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NotepadDemo.Helper.AddAuthTokenHeaderParameter.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:NotepadDemo.Models.NotepadModels.Notepad">
+            <summary>
+            记事本实体类
+            </summary>
+        </member>
+        <member name="P:NotepadDemo.Models.NotepadModels.Notepad.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NotepadDemo.Models.NotepadModels.Notepad.Title">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NotepadDemo.Models.NotepadModels.Notepad.Content">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:NotepadDemo.Models.NotepadModels.Notepad.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
