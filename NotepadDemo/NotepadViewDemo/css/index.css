@@ -1,0 +1,14 @@
+.content{
+    text-align: center;
+    margin: 20px;
+}
+
+.txt{
+    width: 800px;
+    height: 300px;
+    display:inline-block;
+}
+
+.buttonList{
+    margin: 20px;
+}
